@@ -7,17 +7,16 @@
 <p align="center">
   <b>Google's SDV Media on every embedded device, with and without a screen.</b><br>
   Not a new OS: Google's <a href="https://source.android.com/docs/automotive/sdv">AAOS SDV</a> taken out of the car, on bare metal,
-  the cluster's safety monitoring off, a smart home's services on. Android without Java. A delightfully fast boot. A Figma design as the screen. Services and UI in Rust.
+  a smart home's services on. Android without Java. A delightfully fast boot. A Figma design as the screen. Services and UI in Rust.
 </p>
 
 ## Why
 
 Embedded devices with a screen run a full Android that is too big and too slow for them, or a home
 grown Linux that nobody updates. Google built a third option for cars: SDV Media, the Android core
-without the Java framework, a few native agents that run and connect services, and harry, a
-renderer that draws a Figma design straight to the display (its safety monitoring of a cluster's
-telltales stays off here). Everything you write for it, the services and the app behind the
-screen, is Rust. Nothing in it is specific to cars. SDV EveryWare puts it on the wall, and takes
+without the Java framework, a few native agents, written in Rust, that run and connect services,
+and harry, a renderer in Rust that draws a Figma design straight to the display (its safety
+monitoring of a cluster's telltales stays off here). Nothing in it is specific to cars. SDV EveryWare puts it on the wall, and takes
 it from the Qualcomm RB3 to the emulator and the Raspberry Pi.
 
 > **Any device that boots Android 17 can run it.** Where a board support package for AOSP exists,
