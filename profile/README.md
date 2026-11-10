@@ -16,9 +16,9 @@ Embedded devices with a screen run a full Android that is too big and too slow f
 grown Linux that nobody updates. Google built a third option for cars: SDV Media, the Android core
 without the Java framework, a few native agents that run and connect services, and harry, a
 renderer that draws a Figma design straight to the display (its safety monitoring of a cluster's
-telltales stays off here). Nothing in it is specific to cars.
-SDV EveryWare puts it on the wall, and takes it from the Qualcomm RB3 to the emulator and the
-Raspberry Pi.
+telltales stays off here). Everything you write for it, the services and the app behind the
+screen, is Rust. Nothing in it is specific to cars. SDV EveryWare puts it on the wall, and takes
+it from the Qualcomm RB3 to the emulator and the Raspberry Pi.
 
 > **Any device that boots Android 17 can run it.** Where a board support package for AOSP exists,
 > this system runs on it: headless, or with a screen like the one above.
