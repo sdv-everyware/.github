@@ -91,7 +91,7 @@ Without an agent, the same pages are the tutorials.
 | [`everyware`](https://github.com/sdv-everyware/everyware) | the service bundles, their catalog and policies, the product additions, the design tools, the documentation |
 | [`ui-lib`](https://github.com/sdv-everyware/ui-lib) | the UI library: components by role, their behaviour, the Library as a Figma file and as a `.dcf` |
 | [`smarthome-app`](https://github.com/sdv-everyware/smarthome-app), [`tv-app`](https://github.com/sdv-everyware/tv-app), [`hub-app`](https://github.com/sdv-everyware/hub-app), [`pairs-app`](https://github.com/sdv-everyware/pairs-app) | the apps on harry |
-| [`super-harry`](https://github.com/sdv-everyware/super-harry) | harry as AOSP has it, plus the commits a 1080p touch panel needs |
+| [`super-harry`](https://github.com/sdv-everyware/super-harry) | the same harry as AOSP, only faster, touchier and friendlier with Wayland |
 | [`device-rb3`](https://github.com/sdv-everyware/device-rb3), [`dragonboard`](https://github.com/sdv-everyware/dragonboard) | the product of the reference board and Linaro's board support |
 | [`dnsproxyd`](https://github.com/sdv-everyware/dnsproxyd), [`third_party-rust`](https://github.com/sdv-everyware/third_party-rust), [`third_party-chrony`](https://github.com/sdv-everyware/third_party-chrony) | name resolution without netd, the Rust crates the tree lacks, chrony |
 | [`automotive-design-compose`](https://github.com/sdv-everyware/automotive-design-compose) | our fork of DesignCompose: the importer behind the design tools |
