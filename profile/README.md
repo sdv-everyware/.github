@@ -18,9 +18,9 @@
 <h1 align="center">SDV EveryWare</h1>
 
 <p align="center">
-  <b>Google's SDV Media on every embedded device, with and without a screen.</b><br>
-  Not a new OS: Google's <a href="https://source.android.com/docs/automotive/sdv">AAOS SDV</a> taken out of the car, on bare metal,
-  a smart home's services on. Android without Java. A delightfully fast boot. A Figma design as the screen. Services and UI in Rust.
+  <b>The software of Google's SDV Media on every embedded device, with and without a screen.</b><br>
+  Not a new OS: the software of Google's <a href="https://source.android.com/docs/automotive/sdv">AAOS SDV</a> taken out of the car.
+  No hypervisor, no VirtIO: the Android core runs straight on the hardware. Android without Java. A delightfully fast boot. A Figma design as the screen. Services and UI in Rust.
 </p>
 
 ## Why
@@ -29,8 +29,11 @@ Embedded devices with a screen run a full Android that is too big and too slow f
 grown Linux that nobody updates. Google built a third option for cars: SDV Media, the Android core
 without the Java framework, a few native agents, written in Rust, that run and connect services,
 and harry, a renderer in Rust that draws a Figma design straight to the display (its safety
-monitoring of a cluster's telltales stays off here). Nothing in it is specific to cars. SDV EveryWare puts it on the wall, and takes
-it from the Qualcomm RB3 to the emulator and the Raspberry Pi.
+monitoring of a cluster's telltales stays off here). Nothing in it is specific to cars.
+
+In a car, SDV Media is a virtual machine on a type 1 hypervisor (QNX, Gunyah) and reaches the
+hardware through VirtIO. SDV EveryWare removes all of the virtualization: the SDV software from
+AOSP boots straight on the board, with the board's own drivers, and puts it on the wall.
 
 > **Any device that boots Android 17 can run it.** Where a board support package for AOSP exists,
 > this system runs on it: headless, or with a screen like the one above.
