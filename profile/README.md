@@ -2,6 +2,19 @@
   <img src="smarthome-panel.png" alt="The SDV EveryWare smart home panel on a Qualcomm RB3" width="900">
 </p>
 
+<table align="center">
+<tr>
+<td width="33%"><img src="panel-wifi.png" alt="The panel's Wi-Fi sheet: the networks around, one connected"></td>
+<td width="33%"><img src="panel-keyboard.png" alt="The panel's own keyboard under the Wi-Fi password field"></td>
+<td width="33%"><img src="panel-matter.png" alt="A Matter light in the panel's device sheet: its level, its state and its details"></td>
+</tr>
+<tr>
+<td align="center"><sub>Wi-Fi, from the Wi-Fi bundle</sub></td>
+<td align="center"><sub>The panel's own keyboard</sub></td>
+<td align="center"><sub>A Matter device, from the Matter bundle</sub></td>
+</tr>
+</table>
+
 <h1 align="center">SDV EveryWare</h1>
 
 <p align="center">
