@@ -41,7 +41,7 @@ AOSP boots straight on the board, with the board's own drivers, and puts it on t
 > this system runs on it: headless, or with a screen like the one above.
 
 <p align="center">
-  <img src="building-blocks.svg" alt="Building blocks: design and UI library, the harry app and the service bundles, the SDV agents, the Android core, the hardware" width="1000">
+  <img src="building-blocks.svg" alt="Building blocks: design and UI library, the harry app and the service bundles, the SDV agents, A/B updates with rollback and an update server, the Android core, the hardware" width="1000">
 </p>
 
 ## What you can build
