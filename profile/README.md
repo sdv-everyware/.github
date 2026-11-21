@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="smarthome-panel.png" alt="The SDV EveryWare smart home panel on a Qualcomm RB3" width="900">
+  <img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/smarthome-panel.png" alt="The SDV EveryWare smart home panel on a Qualcomm RB3" width="900">
 </p>
 
 <table align="center">
 <tr>
-<td width="25%"><img src="panel-wifi.png" alt="The panel's Wi-Fi sheet: the networks around, one connected"></td>
-<td width="25%"><img src="panel-keyboard.png" alt="The panel's own keyboard under the Wi-Fi password field"></td>
-<td width="25%"><img src="panel-matter.png" alt="A Matter light in the panel's device sheet: its level, its state and its details"></td>
-<td width="25%"><img src="panel-settings.png" alt="The panel's settings: time zone, 24-hour clock, °C or °F, Wi-Fi"></td>
+<td width="25%"><img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/panel-wifi.png" alt="The panel's Wi-Fi sheet: the networks around, one connected"></td>
+<td width="25%"><img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/panel-keyboard.png" alt="The panel's own keyboard under the Wi-Fi password field"></td>
+<td width="25%"><img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/panel-matter.png" alt="A Matter light in the panel's device sheet: its level, its state and its details"></td>
+<td width="25%"><img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/panel-settings.png" alt="The panel's settings: time zone, 24-hour clock, °C or °F, Wi-Fi"></td>
 </tr>
 <tr>
 <td align="center"><sub>Wi-Fi, from the Wi-Fi bundle</sub></td>
@@ -41,7 +41,7 @@ AOSP boots straight on the board, with the board's own drivers, and puts it on t
 > this system runs on it: headless, or with a screen like the one above.
 
 <p align="center">
-  <img src="building-blocks.svg" alt="Building blocks: design and UI library, the harry app and the service bundles, the SDV agents, A/B updates with rollback and an update server, the Android core, the hardware" width="1000">
+  <img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/building-blocks.svg" alt="Building blocks: design and UI library, the harry app and the service bundles, the SDV agents, A/B updates with rollback and an update server, the Android core, the hardware" width="1000">
 </p>
 
 ## What you can build
@@ -51,9 +51,9 @@ the reference board (1920 x 1080, touch):
 
 <table>
 <tr>
-<td width="33%"><img src="tv-app-rb3.png" alt="tv-app: a greeting, the date and a row of device tiles"></td>
-<td width="33%"><img src="hub-app-rb3.png" alt="hub-app: the camera, the climate control and a grid of room tiles"></td>
-<td width="33%"><img src="pairs-app-rb3.png" alt="pairs-app: a memory game, the cards face down, moves, pairs and time"></td>
+<td width="33%"><img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/tv-app-rb3.png" alt="tv-app: a greeting, the date and a row of device tiles"></td>
+<td width="33%"><img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/hub-app-rb3.png" alt="hub-app: the camera, the climate control and a grid of room tiles"></td>
+<td width="33%"><img src="https://raw.githubusercontent.com/sdv-everyware/.github/main/profile/pairs-app-rb3.png" alt="pairs-app: a memory game, the cards face down, moves, pairs and time"></td>
 </tr>
 <tr>
 <td align="center"><sub><code>tv-app</code>, a smart TV home screen, the reference app</sub></td>
